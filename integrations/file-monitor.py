@@ -31,7 +31,7 @@ event_handler = MyEventHandler()
 observer = Observer()
 
 # Define the directory to monitor.
-path = "C:\\Users\\Lab Test File"
+path = "C:\Lab\MonitoredFiles"
 
 # Schedule monitoring without including subdirectories.
 observer.schedule(event_handler, path, recursive=False)
